@@ -1,8 +1,8 @@
-from flask import Flask, render_template
+from flask import Flask, render_template 
 
 app = Flask(__name__)
 
-@app.route("/euodeioacordarcedo.html")
+@app.route("/euodeioacordarcedo")
 def index():
   return render_template("euodeioacordarcedo.html")
 
