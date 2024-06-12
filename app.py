@@ -2,9 +2,9 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
-@app.route("/")
+@app.route("/euodeioacordarcedo.html")
 def index():
-  return "Olá, <b>tudo bem<b>?"
+  return render_template("euodeioacordarcedo.html")
 
 
 
